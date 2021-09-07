@@ -1,0 +1,25 @@
+PART 1: 
+
+Inserting initially:
+INSERT INTO categories
+ 
+VALUES
+	
+	(DEFAULT, 'Brass')
+
+
+Updating the previous entry:
+UPDATE categories 
+
+SET category_name = 'Woodwinds' 
+
+WHERE category_id = 5
+
+
+
+
+PART 2: 
+
+DELETE FROM categories 
+
+WHERE category_id = 5
